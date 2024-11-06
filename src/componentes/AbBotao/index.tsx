@@ -2,6 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 
 export interface AbBotaoProps {
+    
   texto?: string;
   tipo?: 'primario' | 'secundario';
   onClick?: () => void;
